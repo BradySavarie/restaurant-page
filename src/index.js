@@ -1,3 +1,4 @@
 import './styles.css';
+import './home';
 
-console.log('Test successful');
+console.log('Index Test Successful');
