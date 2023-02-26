@@ -23,6 +23,17 @@ const instagramLi = document.createElement('li');
 // insert line element here
 const skipTheDishesText = document.createElement('p');
 
+// test append
+
+homePageContainer.textContent = 'Test Content';
+homePageContainer.classList.add(
+    'text-4xl',
+    'text-orange-700',
+    'bg-black',
+    'text-center'
+);
+content.appendChild(homePageContainer);
+
 /* <div>
     <nav>
         <!-- Insert logo here -->
