@@ -1,3 +1,5 @@
+const { off } = require('process');
+
 module.exports = {
     env: {
         browser: true,
@@ -9,5 +11,7 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
-    rules: {},
+    rules: {
+        'import/no-extraneous-dependencies': off,
+    },
 };
