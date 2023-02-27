@@ -8,25 +8,29 @@ homePage.classList.add(
     'rounded-xl',
     'flex',
     'flex-col',
-    'px-20'
+    'gap-10',
+    'px-6',
+    'py-6',
+    'md:px-20',
+    'md:py-5'
 );
 
-homePage.innerHTML = `<nav class='outline outline-black h-[15%] flex justify-center items-center'>
-    <img src='../src/img/logo-ipsum.svg' class='lg:h-full'>
-    <ul class='flex gap-6 outline justify-between font-Heebo font-light text-xl'>
+homePage.innerHTML = `<nav class='outline h-16 sm:h-20 flex justify-between items-center'>
+    <img src='../src/img/logo-ipsum.svg' class='h-16 sm:h-20'>
+    <ul class='sm:flex gap-8 outline justify-between font-Heebo font-light text-2xl hidden'>
         <li>Home</li>
         <li>Menu</li>
         <li>Contact</li>
     </ul>
-    <button></button>
+    <button class='sm:flex text-lg font-bold border-2 border-normal-orange px-4 hidden'>MY CART</button>
 </nav>
-<div>
-    <div>
-        <h1></h1>
-        <p></p>
-        <button></button>
+<div class='flex flex-col md:flex-row md:justify-between'>
+    <div class='flex flex-col gap-2'>
+        <h1 class='text-4xl font-bold'>PERFORMANCE\nPROTEIN</h1>
+        <p class='text-xl'>Our new, enhanced beef-jerky for building muscle on-the-go</p>
+        <button class='hidden'></button>
     </div>
-    <!-- Insert hero image here -->
+    <img src='../src/img/beef-jerky.png' class='w-80 lg:scale-150 h-auto'>
 </div>
 <div>
     <ul>
