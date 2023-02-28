@@ -4,10 +4,10 @@ module.exports = {
         extend: {
             fontFamily: {
                 Heebo: ['Heebo', 'sans-serif'],
+                Poppins: ['Poppins', 'sans-serif'],
             },
             colors: {
-                'light-orange': '#FFAD64',
-                'normal-orange': '#FB8351',
+                'deep-red': '#dd2727',
                 'light-blue': '#ADD4D3',
                 'dark-gray': '#333237',
             },
