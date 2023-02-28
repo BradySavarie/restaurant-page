@@ -30,7 +30,8 @@ homePage.innerHTML = `
 
 <!-- MAIN -->
 <div class='flex flex-col md:flex-row justify-between'>
-    <div class='flex flex-col gap-2'>
+    <div class='flex flex-col gap-2 relative'>
+        <p class='text-sm font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5'>NEW!</p>
         <h1 class='text-4xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
         <p class='text-md font-Poppins font-normal'>Try our new enhanced beef jerky to help build muscle on-the-go</p>
         <button class='hidden'></button>
