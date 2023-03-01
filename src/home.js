@@ -32,11 +32,11 @@ homePage.innerHTML = `
 </nav>
 
 <!-- MAIN -->
-<div class='flex flex-col md:flex-row justify-between items-center max-w-[20rem] md:max-w-full lg:max-w-full md:px-10'>
+<div class='flex flex-col md:flex-row items-center max-w-[20rem] md:max-w-full lg:max-w-full md:px-10 lg:px-14'>
     <div class='flex flex-col gap-2 relative'>
         <p class='text-sm md:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5'>NEW!</p>
-        <h1 class='text-4xl md:text5xl lg:text-6xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
-        <p class='text-md md:text-lg lg:text-xl font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
+        <h1 class='text-4xl md:text-5xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
+        <p class='text-md md:text-lg lg:text-lg font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
         <button class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
     </div>
     <img src='../src/img/beef-jerky.png' class='md:max-w-[50%] max-w-[90%] lg:max-w-[40%] h-auto my-6'>
