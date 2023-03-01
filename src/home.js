@@ -23,12 +23,12 @@ homePage.innerHTML = `
 <nav class='h-16 flex w-full justify-between items-center'>
     <img src='../src/img/logo-ipsum.svg' class='h-16 md:h-20'>
     <ul class='sm:flex gap-6 md:gap-10 justify-between font-Poppins font-light text-xl lg:text-2xl hidden'>
-        <li><button>Home</button></li>
-        <li><button>Menu</button></li>
-        <li><button>Contact</button></li>
+        <li><button class='hover:underline decoration-deep-red underline-offset-4'>Home</button></li>
+        <li><button class='hover:underline decoration-deep-red underline-offset-4'>Menu</button></li>
+        <li><button class='hover:underline decoration-deep-red underline-offset-4'>Contact</button></li>
     </ul>
     <button class='sm:hidden'><img src='../src/img/menu-icon.svg' class='h-7'></button>
-    <button class='sm:flex text-sm font-bold border-2 border-deep-red px-4 py-1 hidden'>VIEW<br>ORDER</button>
+    <button class='sm:flex text-sm font-bold outline outline-2 outline-deep-red px-4 py-1 hidden hover:text-white hover:bg-deep-red'>VIEW ORDER</button>
 </nav>
 
 <!-- MAIN -->
@@ -37,7 +37,7 @@ homePage.innerHTML = `
         <p class='text-sm md:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5'>NEW!</p>
         <h1 class='text-4xl md:text5xl lg:text-6xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
         <p class='text-md md:text-lg lg:text-xl font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
-        <button class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4'>READ MORE</button>
+        <button class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
     </div>
     <img src='../src/img/beef-jerky.png' class='md:max-w-[50%] max-w-[90%] lg:max-w-[40%] h-auto my-6'>
     <button class='md:hidden text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md self-center'>READ MORE</button>
