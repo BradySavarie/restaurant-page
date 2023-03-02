@@ -34,7 +34,7 @@ export default function renderHome() {
 </nav>
 
 <!-- MAIN -->
-<div class='flex flex-col md:flex-row items-center max-w-[20rem] md:max-w-full lg:max-w-full md:px-10 lg:px-14'>
+<div class='flex justify-center flex-col md:flex-row items-center max-w-[70%] md:max-w-full lg:max-w-full md:px-10 lg:px-14'>
     <div class='flex flex-col gap-2 relative'>
         <p class='text-sm md:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5'>NEW!</p>
         <h1 class='text-4xl md:text-5xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
