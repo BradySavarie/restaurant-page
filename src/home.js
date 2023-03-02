@@ -1,10 +1,10 @@
 export default function renderHome() {
     const content = document.getElementById('content');
     content.innerHTML = '';
-    content.classList.add('h-screen', 'w-screen', 'p-7');
+    content.classList.add('h-screen', 'w-screen', 'p-7', 'overflow-auto');
     const homePage = document.createElement('div');
     homePage.classList.add(
-        'h-full',
+        'min-h-full',
         'w-full',
         'border-4',
         'border-dark-gray',
@@ -49,7 +49,7 @@ export default function renderHome() {
 <div class='flex w-full justify-around sm:justify-between items-center'>
     <div class='flex gap-2'><img src='../src/img/facebook-icon.svg'><span>FACEBOOK</span></div>
     <div class='flex gap-2'><img src='../src/img/instagram-icon.svg'><span>INSTAGRAM</span></div>
-    <div class='h-[5%] hidden sm:flex basis-1/2 lg:basis-1/4 bg-deep-red'></div>
+    <div class='h-[.1rem] hidden sm:flex basis-1/2 lg:basis-1/4 bg-deep-red'></div>
     <p class='hidden lg:flex font-Poppins font-normal'>FIND US ON SKIP THE DISHES!</p>
 </div>`;
 
