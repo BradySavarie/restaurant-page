@@ -1,7 +1,8 @@
 export default function renderHome() {
     const content = document.getElementById('content');
     content.innerHTML = '';
-    content.classList.add('h-screen', 'w-screen', 'p-7', 'overflow-auto');
+    content.classList.add('h-screen', 'w-screen', 'p-5', 'overflow-auto');
+
     const homePage = document.createElement('div');
     homePage.classList.add(
         'min-h-full',
@@ -17,7 +18,9 @@ export default function renderHome() {
         'md:px-9',
         'md:py-8',
         'gap-3',
-        'items-center'
+        'items-center',
+        'shadow-lg',
+        'bg-white'
     );
 
     homePage.innerHTML = `
@@ -34,14 +37,14 @@ export default function renderHome() {
 </nav>
 
 <!-- MAIN -->
-<div class='flex justify-center flex-col md:flex-row items-center max-w-[70%] md:max-w-full lg:max-w-full md:px-10 lg:px-14'>
+<div class='flex justify-center flex-col lg:flex-row items-center max-w-[70%] md:max-w-full lg:max-w-full md:px-10 lg:px-14 mb-5 mt-5 md:mb-0 md:mt-0'>
     <div class='flex flex-col gap-2 relative'>
-        <p class='text-sm md:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5'>NEW!</p>
-        <h1 class='text-4xl md:text-5xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
-        <p class='text-md md:text-lg lg:text-lg font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
+        <p class='text-sm sm:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5 lg:-top-6'>NEW!</p>
+        <h1 class='text-4xl sm:text-5xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
+        <p class='text-md sm:text-lg lg:text-lg font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
         <button class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
     </div>
-    <img src='../src/img/beef-jerky.png' class='md:max-w-[50%] max-w-[90%] lg:max-w-[40%] h-auto my-6'>
+    <img src='../src/img/logo.svg' class='w-full sm:max-w-[70%] md:max-w-[35%] my-6'>
     <button class='md:hidden text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md self-center'>READ MORE</button>
 </div>
 
