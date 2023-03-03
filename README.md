@@ -4,7 +4,7 @@
 
 <img width="1025" alt="Superfoodies Home Page" src="https://user-images.githubusercontent.com/106128212/222635861-94b2f1fb-e76f-4671-9261-4829afe8b365.png">
 
-<i>This tabbed-browsing website is a simple digital storefront for a mock health foods company. The design was crafted mobile-first using Tailwind, and each page has been developed as a Javascript module that is bundled using Webpack.</i>
+<i>This website is a simple digital storefront for a mock health foods company that features a tabbed-browsing navigation system. The design was crafted mobile-first using Tailwind, and each page has been developed as a Javascript module that is bundled using Webpack.</i>
   
 Live Link:
   
