@@ -38,11 +38,11 @@ export default function renderContact() {
 
 <!-- MAIN -->
 <div class='w-full flex justify-center'>
-        <form action="#" class='flex flex-col w-1/2 p-10 rounded-2xl gap-4 shadow-lg outline outline-dark-gray'>
-                <input type="text" name="name" id="name" placeholder="Name" class='py-2 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
-                <input type="email" name="email" id="email" placeholder="Email" class='py-2 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
-                <input type="text" name="subject" id="subject" placeholder="Subject" class='py-2 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
-                <textarea name='message' placeholder='Message' class='w-full p-2 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'></textarea>
+        <form action="#" class='bg-gray-100 flex flex-col w-1/2 p-8 rounded-2xl gap-4 shadow-md'>
+                <input type="text" name="name" id="name" placeholder="Name" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red rounded-t-md'/>
+                <input type="email" name="email" id="email" placeholder="Email" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
+                <input type="text" name="subject" id="subject" placeholder="Subject" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
+                <textarea name='message' placeholder='Message' class='w-full py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'></textarea>
                 <button class='self-center text-md font-bold text-white bg-deep-red w-1/4 px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>Submit</button>
         </form>
 </div>
