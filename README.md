@@ -1,4 +1,4 @@
-<h1>🍎 Superfoodies</h1>
+<h1>💪 Superfoodies</h1>
 
 <h2>A Tabbed-Browsing Website for a Mock Health Foods Company!</h2>
 
