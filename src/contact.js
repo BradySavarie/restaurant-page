@@ -38,12 +38,12 @@ export default function renderContact() {
 
 <!-- MAIN -->
 <div class='w-full flex justify-center'>
-        <form action="#" class='bg-gray-100 flex flex-col w-1/2 p-8 rounded-2xl gap-4 shadow-md border-2 border-opacity-5 border-dark-gray'>
+        <form action="#" class='bg-gray-100 flex flex-col md:w-1/2 w-full p-8 rounded-2xl gap-4 shadow-md border-2 border-opacity-5 border-dark-gray'>
                 <input type="text" name="name" id="name" placeholder="Name" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red rounded-t-md'/>
                 <input type="email" name="email" id="email" placeholder="Email" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
                 <input type="text" name="subject" id="subject" placeholder="Subject" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
                 <textarea name='message' placeholder='Message' class='w-full py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'></textarea>
-                <button class='self-center text-md font-bold text-white bg-deep-red w-1/4 px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>Submit</button>
+                <button class='self-center sm:text-md text-sm font-bold text-white bg-deep-red lg:w-1/3 w-full px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>Submit</button>
         </form>
 </div>
 
