@@ -37,7 +37,8 @@ export default function renderContact() {
 </nav>
 
 <!-- MAIN -->
-<div class='w-full flex justify-center'>
+<div class='w-full flex flex-col gap-2 items-center justify-center'>
+        <p class='text-lg font-bold font-Poppins text-center'>Place an order or ask a question below</p>
         <form action="#" class='bg-gray-100 flex flex-col md:w-1/2 w-full p-8 rounded-2xl gap-4 shadow-md border-2 border-opacity-5 border-dark-gray'>
                 <input type="text" name="name" id="name" placeholder="Name" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red rounded-t-md'/>
                 <input type="email" name="email" id="email" placeholder="Email" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>

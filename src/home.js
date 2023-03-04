@@ -42,10 +42,10 @@ export default function renderHome() {
         <p class='text-sm sm:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5 lg:-top-6'>NEW!</p>
         <h1 class='text-4xl sm:text-5xl font-bold font-Poppins leading-10'>PERFORMANCE<br>PROTEIN</h1>
         <p class='text-md sm:text-lg lg:text-lg font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
-        <button class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
+        <button id='readMoreBtn' class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
     </div>
     <img src='../src/img/logo.svg' class='w-full sm:max-w-[70%] md:max-w-[35%] my-6'>
-    <button class='md:hidden text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md self-center'>READ MORE</button>
+    <button id='readMoreBtn' class='md:hidden text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md self-center'>READ MORE</button>
 </div>
 
 <!-- FOOTER -->

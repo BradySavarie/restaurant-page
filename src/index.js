@@ -6,7 +6,7 @@ import renderContact from './contact';
 renderHome();
 
 window.addEventListener('click', (e) => {
-    if (e.target.id === 'menu') {
+    if (e.target.id === 'menu' || e.target.id === 'readMoreBtn') {
         renderMenu();
     } else if (e.target.id === 'contact' || e.target.id === 'placeOrderBtn') {
         renderContact();
