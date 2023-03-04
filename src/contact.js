@@ -38,7 +38,7 @@ export default function renderContact() {
 
 <!-- MAIN -->
 <div class='w-full flex justify-center'>
-        <form action="#" class='bg-gray-100 flex flex-col w-1/2 p-8 rounded-2xl gap-4 shadow-md'>
+        <form action="#" class='bg-gray-100 flex flex-col w-1/2 p-8 rounded-2xl gap-4 shadow-md border-2 border-opacity-5 border-dark-gray'>
                 <input type="text" name="name" id="name" placeholder="Name" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red rounded-t-md'/>
                 <input type="email" name="email" id="email" placeholder="Email" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
                 <input type="text" name="subject" id="subject" placeholder="Subject" class='py-2 px-4 border-b-2 border-dark-gray focus:outline-none focus:border-deep-red'/>
