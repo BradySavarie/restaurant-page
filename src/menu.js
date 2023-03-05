@@ -56,7 +56,7 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$10</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>Rolled oats with whey protein, vanilla greek yogurt, and skim milk</p>
         </div>
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
@@ -64,7 +64,7 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$18</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>Iceburg lettuce and grilled chicken breast tossed in a creamy caesar dressing</p>
         </div>
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
@@ -72,7 +72,7 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$13</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>Seasoned, mashed avocado spread on a slice of freshly baked bread</p>
         </div>
     </div>
     <div class='flex flex-col sm:w-1/2 w-full gap-4 justify-start'>
@@ -84,7 +84,7 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$8</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>Chocolate whey protein blended with a banana, milk, and peanut butter</p>
         </div>
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
@@ -92,7 +92,7 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$7</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>Fresh mixed berries blended with a banana, milk, and ice cubes</p>
         </div>
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
@@ -100,15 +100,15 @@ export default function renderMenu() {
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$6</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>A freshly brewed cup of medium roast coffee sourced from Ethiopia</p>
         </div>
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Chai Latte</h1>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Chai Tea Latte</h1>
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$5</p>
             </div>
-            <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
+            <p class='text-sm'>A bag of chai spices steeped in frothed milk and topped with cinnamon</p>
         </div>
     </div>
 </div>
