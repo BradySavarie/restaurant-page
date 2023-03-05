@@ -42,7 +42,8 @@ export default function renderMenu() {
         <h1 class='text-3xl font-bold self-center sm:my-0 my-4'>FOOD</h1>
         <!-- menu item -->
         <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
-            <div class='flex items-center font-Poppins justify-between'>
+            <div class='flex items-center font-Poppins justify-between relative'>
+                <p class='text-sm sm:text-md lg:text-lg font-semibold -rotate-6 text-deep-red mb-1 absolute -top-5 lg:-top-6'>NEW!</p>
                 <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Performance Protein</h1>
                 <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$15</p>
