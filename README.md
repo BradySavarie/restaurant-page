@@ -6,12 +6,8 @@
 
 <i>This website is a simple digital storefront for a mock health foods company that features a tabbed-browsing navigation system. The design was crafted using Tailwind, and each page has been developed as a Javascript module that is bundled using Webpack.</i>
 
-Live Link: Add link here
+Live Link: https://bradysavarie.github.io/restaurant-page/
 
 <hr>
 
-<strong>Assets:</strong><br>
-
-<a target="_blank" href="https://icons8.com/icon/dMz54mFbVirR/menu">Menu</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><br>
-<a target="_blank" href="https://icons8.com/icon/118490/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a><br>
-<a target="_blank" href="https://icons8.com/icon/84884/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+This application is a part of The Odin Projects Full-Stack Javascript curriculum and was developed with the purpose of integrating Webpack and ES6 modules into my workflow. I decided to use Tailwind for styling so I could get comfortable working with more complicated project configurations.
