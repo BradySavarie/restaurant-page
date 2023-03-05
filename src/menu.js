@@ -37,75 +37,75 @@ export default function renderMenu() {
 </nav>
 
 <!-- MAIN -->
-<div class='flex w-full'>
-    <div class='flex flex-col w-1/2 gap-4 justify-start'>
-        <h1 class='text-3xl font-bold self-center'>FOOD</h1>
+<div class='flex flex-col sm:flex-row w-full'>
+    <div class='flex flex-col sm:w-1/2 w-full gap-4 justify-start'>
+        <h1 class='text-3xl font-bold self-center sm:my-0 my-4'>FOOD</h1>
         <!-- menu item -->
-        <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Performance Protein</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
                 <p class='font-bold text-lg'>$15</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Overnight Oats</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$10</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Chicken Caesar Salad</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$18</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Avocado on Toast</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$13</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
     </div>
-    <div class='flex flex-col w-1/2 gap-4 justify-start'>
-        <h1 class='text-3xl font-bold self-center'>BEVERAGES</h1>
+    <div class='flex flex-col sm:w-1/2 w-full gap-4 justify-start'>
+        <h1 class='text-3xl font-bold self-center sm:my-0 my-4'>BEVERAGES</h1>
         <!-- menu item -->
-        <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Chocolate Smoothie</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$8</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Mixed-Berry Smoothie</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$7</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Medium-Roast Coffee</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$6</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
-                <div class='grid grid-cols-1 grid-rows-2 px-10'>
+        <div class='grid grid-cols-1 grid-rows-2 sm:px-10'>
             <div class='flex items-center font-Poppins justify-between'>
-                <h1 class='font-bold text-lg'>Performance Protein</h1>
-                <div class='h-[.1rem] flex basis-1/2 bg-deep-red'></div>
-                <p class='font-bold text-lg'>$15</p>
+                <h1 class='font-bold text-lg sm:max-w-full max-w-[min-content]'>Chai Latte</h1>
+                <div class='h-[.1rem] flex sm:basis-1/2 basis-1/3 bg-deep-red'></div>
+                <p class='font-bold text-lg'>$5</p>
             </div>
             <p class='text-sm'>A high-protein beef jerky snack flavoured with a sweet and smoky BBQ sauce</p>
         </div>
