@@ -1,6 +1,7 @@
 import fbLogo from './img/facebook-icon.svg';
 import igLogo from './img/instagram-icon.svg';
 import mainLogo from './img/logo-ipsum.svg';
+import ppLogo from './img/logo.svg';
 
 export default function renderHome() {
     const content = document.getElementById('content');
@@ -48,7 +49,7 @@ export default function renderHome() {
         <p class='text-md sm:text-lg lg:text-lg font-Poppins font-normal'>Try our new and enhanced beef jerky to build muscle on-the-go</p>
         <button id='readMoreBtn' class='hidden md:flex text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md mt-4 hover:outline hover:outline-2 hover:outline-deep-red hover:bg-white hover:text-dark-gray'>READ MORE</button>
     </div>
-    <img src='../src/img/logo.svg' class='w-full sm:max-w-[70%] md:max-w-[35%] my-6'>
+    <img src='${ppLogo}' class='w-full sm:max-w-[70%] md:max-w-[35%] my-6'>
     <button id='readMoreBtn' class='md:hidden text-lg font-bold text-white bg-deep-red w-[max-content] px-8 py-2 font-Poppins tracking-wide shadow-md self-center'>READ MORE</button>
 </div>
 
