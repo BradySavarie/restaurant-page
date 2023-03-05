@@ -11,3 +11,7 @@ Live Link: https://bradysavarie.github.io/restaurant-page/
 <hr>
 
 This application is a part of The Odin Projects Full-Stack Javascript curriculum and was developed with the purpose of integrating Webpack and ES6 modules into my workflow. I decided to use Tailwind for styling so I could get comfortable working with more complicated project configurations.
+
+<h3>What I Learned</h3>
+
+This project taught me alot about the benefits of using modules. Splitting my code up into more managable chunks and then bundling them together really helps with maintainability. I found it alot easier to navigate through my repository and find the lines of code that I need to make changes to. Configuring Webpack to work with Tailwind was quite a challenge as well and it really helped me understand how to manage bundled assets and use loaders properly which I think will prove to be important in future projects.
