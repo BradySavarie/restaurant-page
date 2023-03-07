@@ -1,6 +1,7 @@
 import fbLogo from './img/facebook-icon.svg';
 import igLogo from './img/instagram-icon.svg';
 import mainLogo from './img/logo-ipsum.svg';
+import hamMenu from './img/menu-icon.svg';
 
 export default function renderMenu() {
     const content = document.getElementById('content');
@@ -36,7 +37,7 @@ export default function renderMenu() {
         <li><button id='menu' class='hover:underline decoration-deep-red underline-offset-4 font-semibold'>Menu</button></li>
         <li><button id='contact' class='hover:underline decoration-deep-red underline-offset-4'>Contact</button></li>
     </ul>
-    <button class='sm:hidden'><img src='../src/img/menu-icon.svg' class='h-7'></button>
+    <button class='sm:hidden'><img src='${hamMenu}' class='h-7'></button>
     <button id='placeOrderBtn' class='sm:flex text-sm font-bold outline outline-2 outline-deep-red px-4 py-1 hidden hover:text-white hover:bg-deep-red'>PLACE ORDER</button>
 </nav>
 
